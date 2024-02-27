@@ -33,6 +33,7 @@ def type_txt(event):
 
 def save_txt():
     global timer
+
     window.after_cancel(timer)
     user_txt=text_input.get(1.0,"end-1c")
 
