@@ -1,13 +1,13 @@
 from tkinter import *
 from tkinter import filedialog,messagebox
 
-instruction="If you don't press any key for 5 seconds, the text you have typed will disappear"
+instruction="The text will disappear if you don't press any key in 5 seconds"
 
 window=Tk()
 window.config(width=500,height=500,bg="#F9F6EE",padx=20,pady=20)
 window.title("Disappearing Text")
 
-header=Label(text="Dangerous Writing App",font=("Calibri",20,"bold"),bg="#F9F6EE",fg="black")
+header=Label(text="Dangerous Typing App",font=("Calibri",20,"bold"),bg="#F9F6EE",fg="black")
 header.grid(column=0,row=0)
 
 text=Label(text=instruction,font=("Helvetica",12,"normal"),bg="#F9F6EE",fg="black")
